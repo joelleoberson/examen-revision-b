@@ -6,3 +6,28 @@
   background: #f1faee;
   font-size: 14px;
 }
+
+@media (min-width: 768px) {
+  .navigation {
+    display: inline-flex;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
